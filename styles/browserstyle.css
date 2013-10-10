@@ -1,0 +1,23 @@
+#browserImage {
+	
+	margin-top: 250px;
+	width: 250px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+
+	
+}
+
+.browserInfo {
+	
+	width:300px;
+	margin-left: auto;
+	margin-right: auto;
+	color:#ea9d17;
+	font-size:1.5em;
+	font-family: sans-serif;
+	
+	
+}

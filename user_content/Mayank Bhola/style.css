@@ -1,0 +1,32 @@
+
+#sobj1
+{
+	border:thin solid rgb(204, 204, 204);
+	border-bottom-color:rgb(204, 204, 204);
+	border-bottom-style:solid;
+	border-bottom-width:thin;
+	border-color:rgb(204, 204, 204);
+	border-image:initial;
+	border-left-color:rgb(204, 204, 204);
+	border-left-style:solid;
+	border-left-width:thin;
+	border-right-color:rgb(204, 204, 204);
+	border-right-style:solid;
+	border-right-width:thin;
+	border-style:solid;
+	border-top:thin solid rgb(204, 204, 204);
+	border-top-color:rgb(204, 204, 204);
+	border-top-style:solid;
+	border-top-width:thin;
+	border-width:thin;
+	color:rgb(0, 0, 0);
+	left:389px;
+	padding:2px;
+	padding-bottom:2px;
+	padding-left:2px;
+	padding-right:2px;
+	padding-top:2px;
+	position:absolute;
+	top:179px;
+	length:21;
+}
