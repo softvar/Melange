@@ -1,0 +1,319 @@
+
+
+/*cssbox property*/
+
+/*#cssbox{
+margin-top:80px;
+
+
+height:100%;
+width:256px;
+display:none;
+z-index:999;
+position:fixed;
+top:12px;
+right:0%;
+color:white;
+font-family: Tahoma;
+overflow:scroll;
+
+
+}*/
+
+
+#cssbox{
+
+float:right;
+/*height:100%;*/
+width:250px;
+display:none;
+z-index:999;
+/*position:fixed;
+top:0px;
+right:0%;*/
+color:white;
+font-family: Tahoma;
+overflow: scroll;
+padding-bottom:50px;
+}
+
+#cssbox h2 {
+	
+	padding:15px;
+	font-weight: bold;
+	margin-bottom:10px;
+	text-shadow: 10px 10px 8px black;
+	padding-bottom:5px;
+	font-size: 1.2em;
+}
+
+#textproperties {
+	
+	display: none;
+	
+}
+
+.Fontval{
+height:20px;
+width:20px;
+}
+
+
+
+.Property
+{
+padding:5px;
+text-align:left;
+padding:10px;
+
+text-shadow: 10px 10px 8px black;
+
+/*background-color:#000000;*/
+/*background-image:url('propertyback.jpg');*/
+border-top:solid 1px #f0f0f0;
+border-bottom:solid 1px #f0f0f0;
+margin-bottom:2px;
+font-family: Tahoma;
+box-shadow: 4px 6px 14px 4px black;
+
+}
+
+#lock {
+	
+	margin-left:0px;
+	
+	margin-bottom:-50px;
+	
+}
+#lock img {
+	width: 50px;
+	height: 50px;
+	
+}
+
+
+.PropertyContent
+{
+padding:5px;
+display:none;
+
+}
+#TextTransformContent,#AlignmentContent
+{
+text-align:center;
+}
+
+
+.propbutton {
+    
+    font-family: 'PT Sans', time new roman, serif;
+    color:#ffffff;
+    text-align:center;
+    font-size:15px;
+    font-weight:bold;
+	
+
+    padding:10px;
+
+    text-shadow: /* Simulating Text Stroke */
+        -1px -1px 0 #000, 
+        1px -1px 0 #000, 
+        -1px 1px 0 #000, 
+        1px 1px 0 #000;
+
+    border: 1px solid rgba(0,0,0,0.5);
+    border-bottom: 3px solid rgba(0,0,0,0.5);
+
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+
+    background: rgba(0,0,0,0.25);
+
+    box-shadow: 
+        0 2px 8px rgba(0,0,0,0.5), /* Exterior Shadow */
+        inset 0 1px rgba(255,255,255,0.3), /* Top light Line */
+        inset 0 10px rgba(255,255,255,0.2), /* Top Light Shadow */
+        inset 0 10px 20px rgba(255,255,255,0.25), /* Sides Light Shadow */
+        inset 0 -15px 30px rgba(0,0,0,0.3); /* Dark Background */
+
+    -o-box-shadow: 
+        0 2px 8px rgba(0,0,0,0.5),
+        inset 0 1px rgba(255,255,255,0.3),
+        inset 0 10px rgba(255,255,255,0.2),
+        inset 0 10px 20px rgba(255,255,255,0.25),
+        inset 0 -15px 30px rgba(0,0,0,0.3);
+
+    -webkit-box-shadow: 
+        0 2px 8px rgba(0,0,0,0.5),
+        inset 0 1px rgba(255,255,255,0.3),
+        inset 0 10px rgba(255,255,255,0.2),
+        inset 0 10px 20px rgba(255,255,255,0.25),
+        inset 0 -15px 30px rgba(0,0,0,0.3);
+
+    -moz-box-shadow:
+        0 2px 8px rgba(0,0,0,0.5),
+        inset 0 1px rgba(255,255,255,0.3),
+        inset 0 10px rgba(255,255,255,0.2),
+        inset 0 10px 20px rgba(255,255,255,0.25),
+        inset 0 -15px 30px rgba(0,0,0,0.3);
+
+}
+.propbutton:hover {
+	color: #378def;
+	text-shadow: 3px 3px 8px #3120ee;
+	
+}
+.propbutton:active {
+	
+	 color: rgba(183,15,15,0.97);
+    text-shadow: #c16262 0px 0px 4px;
+	
+	
+}
+
+
+
+/* ajax uploader property */
+
+
+#modal-profile h2 {
+    font-size:2em;
+    letter-spacing:-1px;
+   
+}
+#modal-profile {
+    display:none;
+    height: 230px;
+    width: 550px;
+    padding:10px;
+    border:1px solid #fff;
+    box-shadow: 0px 2px 7px #292929;
+    -moz-box-shadow: 0px 2px 7px #292929;
+    -webkit-box-shadow: 0px 2px 7px #292929;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    background: #f2f2f2;
+    z-index:10000;
+    position: absolute;
+     /*top:600px;
+     left:600px;*/
+	 margin-left:350px;
+   
+	 margin-top:70px;
+
+}
+
+
+#code-profile {
+    display:none;
+    height: 1200px;
+    width: 950px;
+    padding:10px;
+    border:1px solid #fff;
+    box-shadow: 0px 2px 7px #292929;
+    -moz-box-shadow: 0px 2px 7px #292929;
+    -webkit-box-shadow: 0px 2px 7px #292929;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    background: #f2f2f2;
+    z-index:10002;
+    position: absolute;
+     /*top:600px;
+     left:600px;*/
+	 margin-left:130px;
+   
+	 margin-top:10px;
+
+}
+
+
+
+#modal-close-profile {
+    position:absolute;
+    top:-15px;
+    right:-15px;
+}
+
+
+#modal-lightsout {
+    display:none;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    z-index:9999;
+    background:rgba(0,0,0,0.8);
+}
+#dropzone {
+	
+	width:550px;height:145px;
+	border:2px dashed #a1a1a1;
+	color:#a2a2a2;
+	font-family: Helvetica;
+	font-size: 1.5em;
+	text-align: center;
+	border-radius:3px;
+	padding-top: 88px;
+}
+
+.thumb {
+    height: 75px;
+    border: 1px solid #000;
+    margin: 10px 5px 0 0;
+  }
+
+  
+ 
+  #speed,#remaining {
+      float:left;
+      width:100px;
+  }
+  #b_transfered {
+      float:right;
+      text-align:right;
+  }
+  .clear_both {
+      clear:both;
+  }
+
+  #progress_info {
+      font-size:10pt;
+  }
+  #fileinfo,#error,#error2,#abort,#warnsize {
+      color:#aaa;
+      display:none;
+      font-size:10pt;
+      font-style:italic;
+      margin-top:-68px;
+  }
+  #progress {
+      border:1px solid #ccc;
+      display:none;
+      margin-left:60px;
+      height:14px;
+
+      border-radius:10px;
+      -moz-border-radius:10px;
+      -ms-border-radius:10px;
+      -o-border-radius:10px;
+      -webkit-border-radius:10px;
+
+      background: -moz-linear-gradient(#66cc00, #4b9500);
+      background: -ms-linear-gradient(#66cc00, #4b9500);
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #66cc00), color-stop(100%, #4b9500));
+      background: -webkit-linear-gradient(#66cc00, #4b9500);
+      background: -o-linear-gradient(#66cc00, #4b9500);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#66cc00', endColorstr='#4b9500');
+      -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#66cc00', endColorstr='#4b9500')";
+      background: linear-gradient(#66cc00, #4b9500);
+  	  margin-bottom:5px;
+  }
+  #progress_percent {
+      float:right;
+  }
+
+  

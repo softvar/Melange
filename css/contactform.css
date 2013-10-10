@@ -1,0 +1,43 @@
+.contactform {
+width: 460px;
+font-family: arial;
+padding:10px;
+
+}
+.contactformheader {
+font-size:18px;
+font-weight:bold;
+padding-top:10px;
+padding-bottom:10px;
+text-align:center;
+}
+.contactformmessage {
+text-align:center;
+padding-bottom:10px;
+}
+.contactform td {
+padding:4px;
+font-size:12px;
+}
+.contactform p {
+padding:4px;
+}
+.contactform label {
+padding:4px;
+}
+.contactform label {
+padding-right:10px
+}
+
+
+#contactsub{
+background:black;
+color:white;
+margin-left:60px;
+
+}
+
+#YM{
+padding-top:200px;
+
+}
